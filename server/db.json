@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "name": "Tataveer Motaparti",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/800px-User_icon_2.svg.png",
+      "email": "tataveermotaparti@gmail.com",
+      "mobile": 8886847462,
+      "company": "Mech",
+      "id": "85ucoFr"
+    },
+    {
+      "name": "Nani",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/800px-User_icon_2.svg.png",
+      "email": "nani@gmail.com",
+      "mobile": 9912771249,
+      "company": "IT",
+      "id": "SEVSE31"
+    },
+    {
+      "name": "John",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/800px-User_icon_2.svg.png",
+      "email": "john@gmail.com",
+      "mobile": 6784560987,
+      "id": "z4IgjGZ"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colle"
+    },
+    {
+      "id": "2",
+      "name": "Marshel"
+    },
+    {
+      "id": "3",
+      "name": "John"
+    },
+    {
+      "id": "4",
+      "name": "Peter"
+    }
+  ]
+}

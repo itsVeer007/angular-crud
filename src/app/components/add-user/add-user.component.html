@@ -1,0 +1,37 @@
+<div class="container mt-2">
+  <div class="row">
+    <div class="col">
+      <p class="h3">Add Contact</p>
+    </div>
+  </div>
+</div>
+
+<!-- Create Form -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <form (submit)="onCreate()">
+        <div class="mb-2">
+          <input [(ngModel)]="user.name" class="form-control" name="name" placeholder="Name" type="text">
+        </div>
+        <div class="mb-2">
+          <input [(ngModel)]="user.photo" class="form-control" name="photo" placeholder="Photo URL" type="text">
+        </div>
+        <div class="mb-2">
+          <input [(ngModel)]="user.email" class="form-control" name="email" placeholder="Email" type="email">
+        </div>
+        <div class="mb-2">
+          <input [(ngModel)]="user.mobile" class="form-control" name="mobile" placeholder="Mobile" type="number">
+        </div>
+        <div class="mb-2">
+          <input [(ngModel)]="user.company" class="form-control" name="company" placeholder="Company" type="text">
+        </div>
+        <div class="mb-2">
+          <input class="btn btn-danger" type="submit" value="Create">
+          <a class="btn btn-dark mx-2" routerLink="/">Close</a>
+        </div>
+      </form>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+</div>
